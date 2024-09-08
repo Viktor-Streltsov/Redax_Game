@@ -1,9 +1,9 @@
 import React from "react"
-import { MAP_ARROW_CODES } from "../../../constans"
-import { IMapArrowCodes } from "../../../types"
-import { IPlaygroundStepsState } from "../../../store/types"
+import { MAP_ARROW_CODES } from "../../../../constans"
+import { IMapArrowCodes } from "../../../../types"
+import { IPlaygroundStepsState } from "../../../../store/types"
 import styles from "./RendomKeys.module.css"
-import { useAppSelector } from "../../../../../app/hooks"
+import { useAppSelector } from "../../../../../../app/hooks"
 
 const RandomArrows = () => {
   const state = useAppSelector((state) => state.playground)
